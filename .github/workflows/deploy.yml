@@ -1,0 +1,35 @@
+name: Deploy to EC2
+
+on:
+  push:
+    branches:
+      - production
+
+jobs:
+  deploy_frontend:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up SSH
+        uses: webfactory/ssh-agent@v0.5.3
+        with:
+          ssh-private-key: ${{ secrets.EC2_SSH_KEY }}
+
+      - name: Deploy Frontend to EC2
+        run: |
+          ssh -o StrictHostKeyChecking=no ubuntu@${{ secrets.EC2_PUBLIC_IP }} << 'EOF'
+          cd Modern-Farm-X
+          git checkout main
+          git pull origin main
+          npm install
+          npm run build
+          # Check if the app is running and stop it if it is
+          if pm2 list | grep -q "modernfarmx-app"; then
+            pm2 stop modernfarmx-app
+          fi
+          pm2 start npm --name "modernfarmx-app" -- run start -- -H 0.0.0.0 -p 8789
+          pm2 save
+          EOF
