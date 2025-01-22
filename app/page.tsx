@@ -49,7 +49,7 @@ export default function Home() {
   );
 }
 
-const styles = {
+const styles: React.CSSProperties = {
   header: {
     padding: '20px',
     backgroundColor: '#4CAF50',
@@ -74,7 +74,7 @@ const styles = {
     marginBottom: '40px',
   },
   footer: {
-    textAlign: 'center',
+    textAlign: 'center' as 'center',
     padding: '20px',
     backgroundColor: '#333',
     color: '#fff',
