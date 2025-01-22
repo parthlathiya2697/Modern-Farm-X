@@ -49,7 +49,18 @@ export default function Home() {
   );
 }
 
-const styles: React.CSSProperties = {
+// Define a custom type for the styles object
+type Styles = {
+  header: React.CSSProperties;
+  brandName: React.CSSProperties;
+  link: React.CSSProperties;
+  main: React.CSSProperties;
+  section: React.CSSProperties;
+  footer: React.CSSProperties;
+};
+
+// Use the custom type for the styles object
+const styles: Styles = {
   header: {
     padding: '20px',
     backgroundColor: '#4CAF50',
@@ -74,7 +85,7 @@ const styles: React.CSSProperties = {
     marginBottom: '40px',
   },
   footer: {
-    textAlign: 'center' as 'center',
+    textAlign: 'center' as const,
     padding: '20px',
     backgroundColor: '#333',
     color: '#fff',
