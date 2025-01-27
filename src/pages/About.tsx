@@ -5,19 +5,19 @@ const teamMembers = [
   {
     name: 'Parth Lathiya',
     role: 'Founder & CEO',
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80',
+    image: 'https://modern-farming.s3.ap-south-1.amazonaws.com/parth.png',
     bio: 'B.Tech in Computer Science and Engineering with 15+ years of experience in hydroponic systems.',
   },
   {
     name: 'Devam Gujarati',
     role: 'Operations Manager (OM)',
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80',
+    image: 'https://modern-farming.s3.ap-south-1.amazonaws.com/devam.png',
     bio: 'Experienced in managing operations and logistics for hydroponic systems.'
   },
   {
     name: 'Nilkanth',
     role: 'Chief Agricultural Officer (CAO)',
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80',
+    image: 'https://modern-farming.s3.ap-south-1.amazonaws.com/nilkanth.png',
     bio: 'Expert in aeroponic systems and automated growing environments.',
   },
 ];
@@ -87,7 +87,7 @@ export default function About() {
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="w-full h-64 object-cover"
+                  className="w-full h-64 object-contain rounded-md"
                 />
                 <div className="p-6">
                   <h3 className="text-xl font-semibold mb-2">{member.name}</h3>

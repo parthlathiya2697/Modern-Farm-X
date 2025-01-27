@@ -6,37 +6,37 @@ const categories = ['all', 'plants', 'equipment', 'office'] as const;
 const images = [
   {
     id: 1,
-    url: 'https://images.unsplash.com/photo-1558449028-b53a39d100fc?auto=format&fit=crop&q=80',
+    url: 'https://img.freepik.com/premium-photo/hydroponic-hydroponic-system-with-lettuce-growing-it_391229-11906.jpg',
     title: 'Hydroponic Lettuce',
     category: 'plants',
   },
   {
     id: 2,
-    url: 'https://images.unsplash.com/photo-1530126483408-aa533e55bdb2?auto=format&fit=crop&q=80',
+    url: 'https://backend.weiss-technik.com/webapp/weisstechnik/detailpages/thermalmanagement/vertical-farming/image-thumb__7321__auto_acdc910c007beec86a198185e96772a7/thermalmanagement-vertical-farming-spezifische-anforderungen.jpg',
     title: 'Growing Room',
     category: 'office',
   },
   {
     id: 3,
-    url: 'https://images.unsplash.com/photo-1591857177580-dc82b9ac4e1e?auto=format&fit=crop&q=80',
+    url: 'https://i.pinimg.com/originals/82/30/06/823006e0ca3aac8c25f4dc10ce89cacf.png',
     title: 'NFT System',
     category: 'equipment',
   },
   {
     id: 4,
-    url: 'https://images.unsplash.com/photo-1516458464372-eea4ab222b31?auto=format&fit=crop&q=80',
+    url: 'https://agfundernews.com/wp-content/uploads/2019/04/shutterstock_1267972453-768x576.jpg',
     title: 'Vertical Farm',
     category: 'office',
   },
   {
     id: 5,
-    url: 'https://images.unsplash.com/photo-1621628898826-8956e10449eb?auto=format&fit=crop&q=80',
+    url: 'https://timesofagriculture.in/wp-content/uploads/2023/04/Costa-Tomatoes-12-1200x799-1-1024x682.jpg',
     title: 'Tomato Plants',
     category: 'plants',
   },
   {
     id: 6,
-    url: 'https://images.unsplash.com/photo-1589469526983-0887ebe10072?auto=format&fit=crop&q=80',
+    url: 'https://modernfarmer.com/wp-content/uploads/2018/07/aeroponics-1200x800.jpg',
     title: 'Aeroponic System',
     category: 'equipment',
   },
