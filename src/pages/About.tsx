@@ -3,22 +3,22 @@ import { Users, Target, Lightbulb } from 'lucide-react';
 
 const teamMembers = [
   {
-    name: 'Dr. Sarah Chen',
+    name: 'Parth Lathiya',
     role: 'Founder & CEO',
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80',
-    bio: 'Ph.D. in Agricultural Engineering with 15+ years of experience in hydroponic systems.',
+    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80',
+    bio: 'B.Tech in Computer Science and Engineering with 15+ years of experience in hydroponic systems.',
   },
   {
-    name: 'Michael Rodriguez',
-    role: 'Head of Technology',
+    name: 'Devam Gujarati',
+    role: 'Operations Manager (OM)',
+    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80',
+    bio: 'Experienced in managing operations and logistics for hydroponic systems.'
+  },
+  {
+    name: 'Nilkanth',
+    role: 'Chief Agricultural Officer (CAO)',
     image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80',
     bio: 'Expert in aeroponic systems and automated growing environments.',
-  },
-  {
-    name: 'Emma Thompson',
-    role: 'Plant Science Director',
-    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80',
-    bio: 'Specializes in optimizing plant growth in soilless environments.',
   },
 ];
 
@@ -30,7 +30,7 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl font-bold text-white mb-6">Our Story</h1>
           <p className="text-xl text-green-100 max-w-3xl mx-auto">
-            Founded in 2020, HydroGrow emerged from a vision to revolutionize urban farming
+            Founded in 2020, Modern FarmX emerged from a vision to revolutionize urban farming
             through innovative hydroponic and aeroponic technologies.
           </p>
         </div>

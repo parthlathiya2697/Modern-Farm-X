@@ -23,7 +23,7 @@ export default function Layout() {
             <div className="flex items-center">
               <Link to="/" className="flex items-center">
                 <Sprout className="h-8 w-8 text-green-600" />
-                <span className="ml-2 text-xl font-bold text-gray-900">HydroGrow</span>
+                <span className="ml-2 text-xl font-bold text-gray-900">Modern FarmX</span>
               </Link>
             </div>
 
@@ -89,7 +89,7 @@ export default function Layout() {
             <div>
               <div className="flex items-center">
                 <Sprout className="h-8 w-8 text-green-400" />
-                <span className="ml-2 text-xl font-bold">HydroGrow</span>
+                <span className="ml-2 text-xl font-bold">Modern FarmX</span>
               </div>
               <p className="mt-4 text-gray-400">
                 Revolutionizing indoor farming with innovative hydroponic and aeroponic solutions.
@@ -113,15 +113,15 @@ export default function Layout() {
             <div>
               <h3 className="text-lg font-semibold mb-4">Contact</h3>
               <p className="text-gray-400">
-                500 Tech Hub Street<br />
-                Innovation District<br />
-                contact@hydrogrow.com<br />
-                (555) 123-4567
+              SHOP-201, EVOQ, Nr. Stuti Icon<br />
+              Opp. arihant heights, Gauravpath Road, Surat, Gujarat 394501<br />
+              modernfarmx@gmail.com<br />
+              +918401801471
               </p>
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
-            <p>&copy; {new Date().getFullYear()} HydroGrow. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Modern FarmX. All rights reserved.</p>
           </div>
         </div>
       </footer>

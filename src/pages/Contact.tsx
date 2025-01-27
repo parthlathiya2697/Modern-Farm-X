@@ -44,14 +44,14 @@ export default function Contact() {
               <Mail className="h-8 w-8 text-green-600 mr-4" />
               <div>
                 <h3 className="font-semibold mb-1">Email</h3>
-                <p className="text-gray-600">contact@hydrogrow.com</p>
+                <p className="text-gray-600">modernfarmx@gmail.com</p>
               </div>
             </div>
             <div className="flex items-center p-6 bg-gray-50 rounded-lg">
               <Phone className="h-8 w-8 text-green-600 mr-4" />
               <div>
                 <h3 className="font-semibold mb-1">Phone</h3>
-                <p className="text-gray-600">(555) 123-4567</p>
+                <p className="text-gray-600">+918401801471</p>
               </div>
             </div>
             <div className="flex items-center p-6 bg-gray-50 rounded-lg">
@@ -59,9 +59,9 @@ export default function Contact() {
               <div>
                 <h3 className="font-semibold mb-1">Address</h3>
                 <p className="text-gray-600">
-                  500 Tech Hub Street
+                SHOP-201, EVOQ, Nr. Stuti Icon
                   <br />
-                  Innovation District
+                  Surat
                 </p>
               </div>
             </div>
