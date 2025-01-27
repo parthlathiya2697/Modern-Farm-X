@@ -134,7 +134,7 @@ export default function About() {
             </div>
             <div>
               <img
-                src="https://images.unsplash.com/photo-1530126483408-aa533e55bdb2?auto=format&fit=crop&q=80"
+                src="https://blog.pattersonpope.com/hubfs/save-space-hydroponic-indoor-growing-urban-farm_b.jpg"
                 alt="Our office space"
                 className="rounded-lg shadow-lg"
               />

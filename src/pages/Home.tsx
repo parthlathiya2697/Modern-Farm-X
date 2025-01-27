@@ -32,7 +32,7 @@ export default function Home() {
       <div 
         className="relative h-[80vh] bg-cover bg-center"
         style={{
-          backgroundImage: 'url("https://images.unsplash.com/photo-1558449028-b53a39d100fc?auto=format&fit=crop&q=80")',
+          backgroundImage: 'url("https://static.tildacdn.com/tild6330-3437-4335-b064-393266393961/GC0A0661.jpg")',
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50" />
