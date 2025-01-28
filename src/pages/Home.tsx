@@ -25,7 +25,7 @@ const features = [
   },
 ];
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
     <div>
       {/* Hero Section */}
@@ -138,4 +138,6 @@ export default function Home() {
       </div>
     </div>
   );
-}
+};
+
+export default Home;
